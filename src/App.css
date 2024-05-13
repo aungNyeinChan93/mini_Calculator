@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(157, 125, 189, 0.281);
+}
+
+.app-container{
+    background-color: rgba(59, 46, 179, 0.555);
+    width: 550px;
+    margin: 10px;
+    padding: 10px;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(97, 89, 89, 0.753);
+}

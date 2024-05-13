@@ -1,0 +1,39 @@
+.btn-container{
+    margin-top: 20px;
+    min-width: 500px;
+    background-color: rgba(209, 173, 173, 0.589);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-group {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    box-shadow: 4px 4px 4px gray;
+    background-color: rgba(218, 159, 10, 0.829);
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    border-radius: 10px;
+    width: 100px;
+    height: 65px; 
+    transition: 0.3s ease-in-out;
+    
+}
+
+.btn:hover{
+    background-color: rgba(240, 177, 17, 0.795);
+    font-size: 1.7rem;
+}
+
+.btn-equal{
+    width: 96%;
+    background-color: orange;
+}
