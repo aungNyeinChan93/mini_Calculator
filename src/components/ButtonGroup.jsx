@@ -1,44 +1,45 @@
 import React from 'react';
 import "./ButtonGroup.css";
 
-const ButtonGroup = () => {
+const ButtonGroup = ({clickEventHandler}) => {
+  
   return (
     <div className='btn-container'>
       <div className="btn-group">
-        <button className='btn'>C</button>
-        <button className='btn'>(</button>
-        <button className='btn'>)</button>
-        <button className='btn'>~</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>C</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>(</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>)</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>~</button>
       </div>
       <div className="btn-group">
-        <button className='btn'>7</button>
-        <button className='btn'>8</button>
-        <button className='btn'>9</button>
-        <button className='btn'>+</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>7</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>8</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>9</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>+</button>
       </div>
       <div className="btn-group">
-        <button className='btn'>4</button>
-        <button className='btn'>5</button>
-        <button className='btn'>6</button>
-        <button className='btn'>-</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>4</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>5</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>6</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>-</button>
       </div>
       <div className="btn-group">
-        <button className='btn'>1</button>
-        <button className='btn'>2</button>
-        <button className='btn'>3</button>
-        <button className='btn'>*</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>1</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>2</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>3</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>*</button>
       </div>
       <div className="btn-group">
-        <button className='btn'>.</button>
-        <button className='btn'>0</button>
-        <button className='btn'>00</button>
-        <button className='btn'>/</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>.</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>0</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>00</button>
+        <button className='btn ' onClick={(e)=>clickEventHandler(e.target.innerHTML)}>/</button>
       </div>
       <div className="btn-group">
-        <button className='btn btn-equal'>=</button>
       </div>
+        <button className='btn btn-equal'  onClick={(e)=>clickEventHandler(e.target.innerHTML)}>=</button>
     </div>
   )
 }
 
-export default ButtonGroup
+export default ButtonGroup;

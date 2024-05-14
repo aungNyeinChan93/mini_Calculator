@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Output.css"
 
-const Output = () => {
+const Output = ({output}) => {
   return (
     <div className='output-container'>
-      <div className="output-text">0</div>
+      <div className="output-text">{output}</div>
     </div>
   )
 }

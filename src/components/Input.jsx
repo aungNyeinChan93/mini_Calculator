@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Input.css"
 
-const Input = () => {;
+const Input = ({input}) => {;
   return (
     <div className='input input-container'>
-      <h1 className='input-text'>0</h1>
+      <h1 className='input-text'>{input}</h1>
     </div>
   )
 }
